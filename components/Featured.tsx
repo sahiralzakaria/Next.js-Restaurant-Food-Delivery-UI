@@ -7,7 +7,6 @@ const Featured = () => {
             {/* WRAPPER */}
             <div className='w-max flex'>
                 {/* SINLE ITEM */}
-
                 {
                     featuredProducts.map(item => (
 
