@@ -119,3 +119,40 @@ export const featuredProducts: Products = [
         ],
     },
 ];
+
+type Menu = {
+    id: number;
+    slug: string;
+    title: string;
+    desc?: string;
+    img?: string;
+    color: string;
+}[];
+
+export const menu: Menu = [
+    {
+        id: 1,
+        slug: "pastas",
+        title: "Italian Pastas",
+        desc: "Experience authentic Italian flavors with our handcrafted, perfectly cooked pasta selections.",
+        img: "/temporary/m1.png",
+        color: "white",
+    },
+    {
+        id: 2,
+        slug: "burgers",
+        title: "Juicy Burgers",
+        desc: "Dive into rich, mouthwatering bites with our tender, flavor-packed gourmet burgers.",
+        img: "/temporary/m2.png",
+        color: "black",
+    },
+    {
+        id: 3,
+        slug: "pizzas",
+        title: "Cheesy Pizzas",
+        desc: "Enjoy every slice with our crispy, cheese-loaded pizzas topped with irresistible flavors.",
+        img: "/temporary/m3.png",
+        color: "white",
+    },
+];
+
