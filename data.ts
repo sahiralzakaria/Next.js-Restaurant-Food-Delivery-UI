@@ -156,3 +156,77 @@ export const menu: Menu = [
     },
 ];
 
+export const pizzas: Products = [
+    {
+        id: 1,
+        title: "Sicilian",
+        desc: "A bold and flavorful mix of spicy pepperoni, fresh jalapeños, and a hint of crushed chili, all melted together with creamy mozzarella for a spicy bite every time.",
+        img: "/temporary/p1.png",
+        price: 24.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+    {
+        id: 2,
+        title: "Mediterranean Delight",
+        desc: "A bright and savory blend of tangy feta, rich Kalamata olives, sun-ripened tomatoes, and aromatic herbs that bring Mediterranean flavors to life.",
+        img: "/temporary/p8.png",
+        price: 32.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+    {
+        id: 3,
+        title: "Bella Napoli",
+        desc: "Inspired by classic Neapolitan tradition with a light, crisp crust, smooth tomato sauce, fresh mozzarella, and a touch of herbs for a clean and authentic Italian taste.",
+        img: "/temporary/p3.png",
+        price: 26.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+    {
+        id: 4,
+        title: "Pesto Primavera",
+        desc: "A refreshing blend of basil pesto, stretchy mozzarella, and seasonal vegetables, bringing a vibrant burst of flavor to every bite.",
+        img: "/temporary/p10.png",
+        price: 28.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+    {
+        id: 5,
+        title: "Veggie Supreme",
+        desc: "Packed with garden-fresh vegetables, creamy mozzarella, and a savory tomato base, this pizza offers a colorful and satisfying veggie experience.",
+        img: "/temporary/p11.png",
+        price: 24.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+    {
+        id: 6,
+        title: "Four Cheese Fantasy",
+        desc: "A rich and creamy fusion of mozzarella, cheddar, provolone, and Parmesan, blended to create the ultimate smooth and indulgent cheese lover’s pizza.",
+        img: "/temporary/p12.png",
+        price: 22.9,
+        options: [
+            { title: "Small", additionalPrice: 0 },
+            { title: "Medium", additionalPrice: 4 },
+            { title: "Large", additionalPrice: 6 },
+        ],
+    },
+];
