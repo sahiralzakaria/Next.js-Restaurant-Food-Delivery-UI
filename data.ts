@@ -230,3 +230,25 @@ export const pizzas: Products = [
         ],
     },
 ];
+
+export const singleProduct: Product = {
+    id: 1,
+    title: "Spicy Sicilian",
+    desc: "Turn up the heat with a bold mix of zesty pepperoni, fresh jalapeños, crushed red pepper, and gooey mozzarella, creating a spicy burst of flavor in every bite.",
+    img: "/temporary/p1.png",
+    price: 24.9,
+    options: [
+        {
+            title: "Small",
+            additionalPrice: 0,
+        },
+        {
+            title: "Medium",
+            additionalPrice: 4,
+        },
+        {
+            title: "Large",
+            additionalPrice: 6,
+        },
+    ],
+};

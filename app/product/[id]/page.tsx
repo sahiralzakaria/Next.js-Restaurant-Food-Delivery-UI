@@ -1,8 +1,22 @@
+import Price from '@/components/Price'
+import { singleProduct } from '@/data'
+import Image from 'next/image'
 import React from 'react'
 
 const SingleProductPage = () => {
     return (
-        <div>SingleProductPage</div>
+        <div className='p-4 lg:p-20 xl:p-40 h-screen flex-col justify-around text-red-500 md:flex-row'>
+            {/* IMAGE CONTAINER */}
+            {singleProduct.img && (<div className='relative'>
+                <Image src={singleProduct.img} alt='' fill className='object-contain' />
+            </div>)}
+            {/* TEXT CONTAINER */}
+            <div className='w-1/2'>
+                <h1>{singleProduct.title}</h1>
+                <p>{singleProduct.desc}</p>
+                <Price price={singleProduct.price} id={singleProduct.id} options={singleProduct.options} />
+            </div>
+        </div>
     )
 }
 
