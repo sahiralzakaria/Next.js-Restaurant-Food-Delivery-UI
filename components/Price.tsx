@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type Props = {
     price: number;
@@ -9,9 +9,10 @@ type Props = {
 
 }
 const Price = ({ price, id, options }: Props) => {
-    const [total, setTotalPrice] = useState(price);
     const [quantity, setQuantity] = useState(1);
     const [selected, setSelected] = useState(0);
+
+    const total = quantity * (options ? price + options[selected].additionalPrice : price);
 
     return (
         <div className="flex flex-col gap-4">
